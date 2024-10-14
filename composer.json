@@ -1,0 +1,16 @@
+{
+    "name": "myca/mon-package",
+    "description": "Un package PHP d'exemple",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Myca\\MonPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Myca Monney"
+        }
+    ],
+    "require": {}
+}
